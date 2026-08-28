@@ -42,7 +42,10 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=Gscalambrini&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ED145B&icon_color=ED145B&text_color=c9d1d9" />
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Gscalambrini&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=ED145B&icon_color=ED145B&text_color=333333" alt="Estatísticas do GitHub" height="165" />
 </picture>
-<img src="https://raw.githubusercontent.com/Gscalambrini/Gscalambrini/main/assets/top-langs.svg" alt="Linguagens mais usadas" height="180" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gscalambrini&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ED145B&text_color=c9d1d9" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gscalambrini&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=ED145B&text_color=333333" alt="Linguagens mais usadas" height="165" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Gscalambrini&theme=dark&hide_border=true&background=0d1117&ring=ED145B&fire=ED145B&currStreakLabel=ED145B" />
