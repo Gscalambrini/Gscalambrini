@@ -8,6 +8,7 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 
 ## 🔭 Em que estou trabalhando agora
 
+- Concluí a Fase 1 da POSTECH — relação entre performance logística, satisfação e retenção de clientes, com testes estatísticos ([olist-logistics-customer-retention-analysis](https://github.com/Gscalambrini/olist-logistics-customerretention-analysis))
 - Concluí a Fase 2 da POSTECH — classificação de qualidade de vinhos com Machine Learning ([dionisio-score](https://github.com/Gscalambrini/dionisio-score))
 - Iniciando a Fase 3 — Big Data to Analytics: SQL/NoSQL, PySpark, arquiteturas distribuídas (Hadoop/Spark) e Data Warehouse/Lake na nuvem (BigQuery, Databricks)
 
