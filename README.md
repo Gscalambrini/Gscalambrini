@@ -8,8 +8,8 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 
 ## 🔭 Em que estou trabalhando agora
 
-- Concluí a Fase 1 da POSTECH — relação entre performance logística, satisfação e retenção de clientes, com testes estatísticos ([olist-logistics-customer-retention-analysis](https://github.com/Gscalambrini/olist-logistics-customerretention-analysis))
-- Concluí a Fase 2 da POSTECH — classificação de qualidade de vinhos com Machine Learning ([dionisio-score](https://github.com/Gscalambrini/dionisio-score))
+- Concluí a Fase 1 da POSTECH — Python, Pandas, NumPy, Matplotlib/Seaborn e SciPy: relação entre performance logística, satisfação e retenção de clientes, com testes estatísticos ([olist-logistics-customer-retention-analysis](https://github.com/Gscalambrini/olist-logistics-customerretention-analysis))
+- Concluí a Fase 2 da POSTECH — Python, scikit-learn, XGBoost e Pandas/NumPy: classificação de qualidade de vinhos com Machine Learning ([dionisio-score](https://github.com/Gscalambrini/dionisio-score))
 - Iniciando a Fase 3 — Big Data to Analytics: SQL/NoSQL, PySpark, arquiteturas distribuídas (Hadoop/Spark) e Data Warehouse/Lake na nuvem (BigQuery, Databricks)
 
 ## 🛠️ Tecnologias
@@ -43,8 +43,8 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Gscalambrini&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=ED145B&icon_color=ED145B&text_color=333333" alt="Estatísticas do GitHub" height="165" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gscalambrini&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ED145B&text_color=c9d1d9" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gscalambrini&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=ED145B&text_color=333333" alt="Linguagens mais usadas" height="165" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gscalambrini&layout=compact&hide=jupyter%20notebook&theme=dark&hide_border=true&bg_color=0d1117&title_color=ED145B&text_color=c9d1d9" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gscalambrini&layout=compact&hide=jupyter%20notebook&theme=default&hide_border=true&bg_color=ffffff&title_color=ED145B&text_color=333333" alt="Linguagens mais usadas" height="165" />
 </picture>
 
 <picture>
