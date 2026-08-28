@@ -8,8 +8,8 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 
 ## 🔭 Em que estou trabalhando agora
 
-- Concluindo a Fase 2 da POSTECH — classificação de qualidade de vinhos com Machine Learning ([dionisio-score](https://github.com/Gscalambrini/dionisio-score))
-- Aprofundando em análise exploratória, modelagem preditiva e storytelling com dados
+- Concluí a Fase 2 da POSTECH — classificação de qualidade de vinhos com Machine Learning ([dionisio-score](https://github.com/Gscalambrini/dionisio-score))
+- Iniciando a Fase 3 — Big Data to Analytics: SQL/NoSQL, PySpark, arquiteturas distribuídas (Hadoop/Spark) e Data Warehouse/Lake na nuvem (BigQuery, Databricks)
 
 ## 🛠️ Tecnologias
 
