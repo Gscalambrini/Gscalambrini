@@ -21,6 +21,8 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 ![Matplotlib & Seaborn](https://img.shields.io/badge/Matplotlib%20%26%20Seaborn-11557C?style=for-the-badge)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -32,7 +34,7 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 |---|---|
 | [**dionisio-score**](https://github.com/Gscalambrini/dionisio-score) | Classificação de qualidade de vinhos com Machine Learning — EDA, 3 modelos comparados, storytelling executivo (Tech Challenge Fase 2, POSTECH) |
 | [**olist-logistics-customer-retention-analysis**](https://github.com/Gscalambrini/olist-logistics-customerretention-analysis) | Relação entre performance logística, satisfação e retenção de clientes, com testes estatísticos (Tech Challenge Fase 1, POSTECH) |
-| [**tech-salaries-data-analysis**](https://github.com/Gscalambrini/tech-salaries-data-analysis) | Padrões salariais e tendências de contratação no mercado de tecnologia |
+| [**tech-salaries-data-analysis**](https://github.com/Gscalambrini/tech-salaries-data-analysis) | Dashboard interativo (Streamlit + Plotly) sobre salários no mercado de tecnologia — filtros por cargo, senioridade e país |
 
 ## 📊 GitHub Stats
 
