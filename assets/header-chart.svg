@@ -1,0 +1,74 @@
+<svg width="640" height="160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animação cinematográfica: câmera começa em zoom sobre a primeira barra e se afasta revelando um gráfico de barras crescendo, em loop">
+  <!--
+    Banner animado do topo do perfil — versão "cinematográfica".
+
+    Como funciona (tudo via SMIL, sem JS — GitHub desabilita <script> dentro de
+    SVG carregado por <img>): o SVG externo (largura/altura fixas, nunca muda)
+    contém um SVG interno cujo viewBox é animado — essa é a técnica padrão de
+    "câmera" em SVG puro (animar o viewBox de um <svg> aninhado).
+
+      1. Abre em zoom fechado sobre a barra 1 (já crescida).
+      2. O viewBox anima pra fora e pra direita — a cada parada, a barra daquele
+         trecho "nasce" da base, como se a câmera revelasse cada uma.
+      3. Com tudo revelado, uma onda de brilho passa pelas barras da esquerda
+         pra direita (a barra mais forte, já no brilho máximo, "pisca" ao invés
+         de clarear mais, já que não dá pra passar de opacidade 1).
+      4. As barras recolhem em onda reversa enquanto a câmera some de volta
+         pro zoom inicial — e o ciclo (10s) reinicia sem salto perceptível.
+
+    Todas as barras usam UM SÓ matiz (ED145B, o mesmo do resto do perfil) com
+    opacidade crescente da esquerda pra direita, em vez de várias cores.
+    Fundo transparente: acompanha o tema claro/escuro do GitHub.
+
+    Todo keyframe de viewBox mantém largura = 4 × altura (a mesma proporção do
+    canvas cheio, 640x160), pra interpolação nunca "espichar" a imagem.
+  -->
+  <svg x="0" y="0" width="640" height="160" viewBox="40 86 192 48">
+    <animate attributeName="viewBox"
+      keyTimes="0;0.10;0.24;0.38;0.50;0.62;0.86;1"
+      values="40 86 192 48;40 68 256 64;30 50 340 85;20 30 440 110;0 15 540 135;0 0 640 160;0 0 640 160;40 86 192 48"
+      dur="10s" repeatCount="indefinite"/>
+
+    <!-- Barra 1: já nasce crescida, fixa — é o que a câmera mostra em t=0 -->
+    <rect x="76" y="90" width="48" height="44" rx="10" ry="10" fill="#ED145B" fill-opacity="0.55">
+      <animate attributeName="fill-opacity"
+        keyTimes="0;0.64;0.66;0.68;1" values="0.55;0.55;1;0.55;0.55"
+        dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Barra 2 -->
+    <rect x="164" width="48" rx="10" ry="10" fill="#ED145B" fill-opacity="0.65" y="134" height="0">
+      <animate attributeName="y"            keyTimes="0;0.05;0.09;0.86;0.99;1" values="134;134;74;74;134;134" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="height"       keyTimes="0;0.05;0.09;0.86;0.99;1" values="0;0;60;60;0;0"         dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" keyTimes="0;0.665;0.685;0.705;1"   values="0.65;0.65;1;0.65;0.65" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Barra 3 -->
+    <rect x="252" width="48" rx="10" ry="10" fill="#ED145B" fill-opacity="0.72" y="134" height="0">
+      <animate attributeName="y"            keyTimes="0;0.19;0.23;0.86;0.97;1" values="134;134;80;80;134;134" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="height"       keyTimes="0;0.19;0.23;0.86;0.97;1" values="0;0;54;54;0;0"         dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" keyTimes="0;0.69;0.71;0.73;1"      values="0.72;0.72;1;0.72;0.72" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Barra 4 -->
+    <rect x="340" width="48" rx="10" ry="10" fill="#ED145B" fill-opacity="0.82" y="134" height="0">
+      <animate attributeName="y"            keyTimes="0;0.33;0.37;0.86;0.95;1" values="134;134;56;56;134;134" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="height"       keyTimes="0;0.33;0.37;0.86;0.95;1" values="0;0;78;78;0;0"         dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" keyTimes="0;0.715;0.735;0.755;1"   values="0.82;0.82;1;0.82;0.82" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Barra 5 -->
+    <rect x="428" width="48" rx="10" ry="10" fill="#ED145B" fill-opacity="0.92" y="134" height="0">
+      <animate attributeName="y"            keyTimes="0;0.45;0.49;0.86;0.92;1" values="134;134;42;42;134;134" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="height"       keyTimes="0;0.45;0.49;0.86;0.92;1" values="0;0;92;92;0;0"         dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" keyTimes="0;0.74;0.76;0.78;1"      values="0.92;0.92;1;0.92;0.92" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Barra 6: já nasce no brilho máximo — no flourish ela "pisca" (dip) em vez de clarear -->
+    <rect x="516" width="48" rx="10" ry="10" fill="#ED145B" fill-opacity="1" y="134" height="0">
+      <animate attributeName="y"            keyTimes="0;0.57;0.61;0.86;0.89;1" values="134;134;26;26;134;134" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="height"       keyTimes="0;0.57;0.61;0.86;0.89;1" values="0;0;108;108;0;0"       dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" keyTimes="0;0.765;0.785;0.805;1"   values="1;1;0.5;1;1"           dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </svg>
+</svg>

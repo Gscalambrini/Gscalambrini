@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=ED145B&center=true&vCenter=true&width=560&lines=Ol%C3%A1%2C+sou+o+Gustavo+%F0%9F%91%8B;Dados+%2B+Machine+Learning;Sempre+aprendendo+algo+novo" alt="Typing SVG" /></a>
+<img src="https://raw.githubusercontent.com/Gscalambrini/Gscalambrini/main/assets/header-chart.svg" width="480" alt="Animação de um gráfico de barras crescendo, em loop" />
 
 </div>
 
@@ -17,11 +17,12 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Matplotlib & Seaborn](https://img.shields.io/badge/Matplotlib%20%26%20Seaborn-11557C?style=for-the-badge)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📌 Projetos em destaque
