@@ -34,7 +34,7 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 |---|---|
 | [**dionisio-score**](https://github.com/Gscalambrini/dionisio-score) | Classificação de qualidade de vinhos com Machine Learning — EDA, 3 modelos comparados, storytelling executivo (Tech Challenge Fase 2, POSTECH) |
 | [**olist-logistics-customer-retention-analysis**](https://github.com/Gscalambrini/olist-logistics-customerretention-analysis) | Relação entre performance logística, satisfação e retenção de clientes, com testes estatísticos (Tech Challenge Fase 1, POSTECH) |
-| [**tech-salaries-data-analysis**](https://github.com/Gscalambrini/tech-salaries-data-analysis) | Dashboard interativo (Streamlit + Plotly) sobre salários no mercado de tecnologia — filtros por cargo, senioridade e país |
+| [**tech-salaries-data-analysis**](https://github.com/Gscalambrini/tech-salaries-data-analysis) ([🌐 acessar](https://tech-salaries-data-analysis-c8b37kufajkebqt7mp2g26.streamlit.app)) | Dashboard interativo (Streamlit + Plotly) sobre salários no mercado de tecnologia — filtros por cargo, senioridade e país |
 
 ## 📊 GitHub Stats
 
