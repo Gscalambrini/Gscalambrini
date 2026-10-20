@@ -10,7 +10,8 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 
 - Concluí a Fase 1 da POSTECH — Python, Pandas, NumPy, Matplotlib/Seaborn e SciPy: relação entre performance logística, satisfação e retenção de clientes, com testes estatísticos ([olist-logistics-customer-retention-analysis](https://github.com/Gscalambrini/olist-logistics-customerretention-analysis))
 - Concluí a Fase 2 da POSTECH — Python, scikit-learn, XGBoost e Pandas/NumPy: classificação de qualidade de vinhos com Machine Learning ([dionisio-score](https://github.com/Gscalambrini/dionisio-score))
-- Iniciando a Fase 3 — Big Data to Analytics: SQL/NoSQL, PySpark, arquiteturas distribuídas (Hadoop/Spark) e Data Warehouse/Lake na nuvem (BigQuery, Databricks)
+- Concluí a Fase 3 da POSTECH — Python, PySpark, AWS Glue e Athena: pipeline de dados completo na AWS (arquitetura Bronze/Silver/Gold) sobre o mercado brasileiro de Dados e IA ([state-of-data-brasil-aws-pipeline](https://github.com/Gscalambrini/state-of-data-brasil-aws-pipeline))
+- Iniciando a Fase 4 — Analytical Solutions and Machine Learning Applied to Business: dashboards avançados (DAX, Python) e deploy de modelos de ML em produção (Docker, Flask, Streamlit)
 
 ## 🛠️ Tecnologias
 
@@ -21,6 +22,8 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 ![Matplotlib & Seaborn](https://img.shields.io/badge/Matplotlib%20%26%20Seaborn-11557C?style=for-the-badge)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -32,6 +35,7 @@ Foco em **dados e Machine Learning** — atualmente cursando **POSTECH — Data 
 
 | Projeto | Sobre |
 |---|---|
+| [**state-of-data-brasil-aws-pipeline**](https://github.com/Gscalambrini/state-of-data-brasil-aws-pipeline) | Pipeline de dados na AWS (Glue + Athena, arquitetura Bronze/Silver/Gold) sobre o mercado brasileiro de Dados e IA (Tech Challenge Fase 3, POSTECH) |
 | [**dionisio-score**](https://github.com/Gscalambrini/dionisio-score) | Classificação de qualidade de vinhos com Machine Learning — EDA, 3 modelos comparados, storytelling executivo (Tech Challenge Fase 2, POSTECH) |
 | [**olist-logistics-customer-retention-analysis**](https://github.com/Gscalambrini/olist-logistics-customerretention-analysis) | Relação entre performance logística, satisfação e retenção de clientes, com testes estatísticos (Tech Challenge Fase 1, POSTECH) |
 | [**tech-salaries-data-analysis**](https://github.com/Gscalambrini/tech-salaries-data-analysis) ([🌐 acessar](https://tech-salaries-data-analysis-c8b37kufajkebqt7mp2g26.streamlit.app)) | Dashboard interativo (Streamlit + Plotly) sobre salários no mercado de tecnologia — filtros por cargo, senioridade e país |
